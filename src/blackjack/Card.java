@@ -10,6 +10,14 @@ public class Card {
 		this.suit = suit;
 	}
 	
+	int getCardValue() {
+		return value;
+	}
+	
+	Suit getCardSuit() {
+		return suit;
+	}
+	
 	@Override
 	public String toString() {
 		String prettyValue;
